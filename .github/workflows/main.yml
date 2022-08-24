@@ -1,0 +1,9 @@
+name: first ci cd
+on: 
+  push:
+    branches: [master]
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo hello world
