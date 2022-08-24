@@ -1,7 +1,7 @@
 name: first ci cd
 on: 
   push:
-    path: 
+    paths: 
       - '!README.md'
       - '!docs/**'
       - '**.js'
